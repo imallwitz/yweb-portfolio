@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>my website!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat&family=Montserrat+Alternates:wght@300;400&family=Nunito:wght@200;400&family=Work+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <h3 id="intro" onclick="clicky(event);"><i class="fas fa-user"></i>intro</h3>
+        <h3 id="project" onclick="clicky(event);"><i class="fas fa-pencil-ruler"></i>projects</h3>
+        <h3 id="res" onclick="clicky(event);"><i class="fas fa-scroll"></i>resume</h3>
+        <h3 id="contact" onclick="clicky(event);"><i class="fas fa-address-book"></i>contact</h3>
+    </nav>
+
+    <!-- main content -->
+    <main>
+
+        <!-- intro block -->
+        <div class="intro">
+            <h1 class="introtitle">hi! this is my portfolio page</h1>
+            <div class="introtext">
+                <p>a little bit about me: i'm a third year undergrad at Northwestern University studying computer
+                    science, learning sciences and art. i'm interested in the intersections of all of these things, and
+                    looking foward to going to grad school to pursue those interests. </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quaerat ipsum accusantium architecto
+                    error quas, fuga eos iure libero aliquam voluptatibus nulla voluptatum soluta atque fugit sequi
+                    similique exercitationem id facere nesciunt, laudantium esse animi. Fugit, harum et exercitationem
+                    voluptatum illum, unde quisquam maiores mollitia voluptatem velit, ea laboriosam magni?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis hic quae eos placeat aperiam
+                    doloribus et officiis odio dolore voluptatem commodi quidem dolor consectetur recusandae tempora
+                    laudantium velit unde, enim at, harum iusto eum. Quisquam.</p>
+            </div>
+            <div class="images">
+                <img src="assets/profilepic.jpg">
+                <img src="assets/selfie.JPG">
+                <img src="assets/picofme.JPG">
+                <img id="transparentimg" src="assets/fullbody.png">
+            </div>
+        </div>
+
+        <!-- projects block -->
+        <div class="projects">
+            <h2>projects</h2>
+
+            <div class="projects-container">
+                <article>
+                    <h4><a href="https://imallwitz.github.io/equilibrium/" target="_blank">equilibrium</a></h4>
+                    <h5>a design for a learning environment</h5>
+                    <p>This is a prototype for an interactive game made for helping high school students learn about the
+                        ways humans impact biodiversity.</p>
+                    <a href="https://imallwitz.github.io/equilibrium/" target="_blank"><img id="equilibrium"
+                            src="assets/equilibriumscreenshot.jpg"></a>
+                </article>
+
+                <article>
+                    <h4>animation practice</h4>
+                    <h5>getting used to using clip studio paint for animation</h5>
+                    <p>This is an original character from a story I'm writing with some friends. It was fun to make an
+                        animation of her.</p>
+                    <img idf="taika" src="assets/IdleAnimationTaika.gif">
+                </article>
+
+                <article>
+                    <h4>art journal</h4>
+                    <h5>a final project for an art class</h5>
+                    <p>After studying the punk movements of the 80s and 90s for a quarter, we were asked to create
+                        something of our own. I took a lot of inspiration from the journals we read of queer punk
+                        artists talking openly about dysphoria and chronic pain. This was a raw experience to go
+                        through, but I think I was able to make something pretty cool.</p>
+                    <iframe id="punks" src="assets/punkswithaids.pdf"></iframe>
+                </article>
+            </div>
+        </div>
+
+        <!-- resume block -->
+        <div class="resume">
+            <h2>resume</h2>
+            <iframe src="assets/MallwitzResume.pdf" title="resume"></iframe>
+        </div>
+
+    </main>
+
+    <!-- contact block-->
+    <div class="contact">
+        <h6>contact me here:</h6>
+        <p>email: <a href="mailto:im22@u.northwestern.edu">im22@u.northwestern.edu</a></p>
+        <p>github: <a href="https://github.com/imallwitz" target="_blank">@imallwitz</a></a></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/62a7c74d0d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
